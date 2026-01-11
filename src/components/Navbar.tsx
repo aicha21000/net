@@ -24,7 +24,7 @@ const Navbar = () => {
                                 alt="Ô ECLAT Logo"
                                 width={48}
                                 height={48}
-                                className="h-12 w-auto object-contain"
+                                className="h-12 w-auto object-contain dark:brightness-0 dark:invert"
                                 style={{ height: '48px', width: 'auto' }}
                             />
                             <span className="text-2xl font-bold text-primary dark:text-primary-dark">
