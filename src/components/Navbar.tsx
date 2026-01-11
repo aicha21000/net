@@ -28,7 +28,7 @@ const Navbar = () => {
                                 style={{ height: '48px', width: 'auto' }}
                             />
                             <span className="text-2xl font-bold text-primary dark:text-primary-dark">
-                                OECLAT
+                                Ô ECLAT
                             </span>
                         </Link>
                     </div>
