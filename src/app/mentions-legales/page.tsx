@@ -6,7 +6,7 @@ export default function MentionsLegales() {
             <section className="mb-8">
                 <h2 className="text-xl font-semibold mb-4">1. Éditeur du site</h2>
                 <p className="text-muted-foreground">
-                    Le présent site est édité par la société OECLAT, immatriculée au Registre du Commerce et des Sociétés sous le numéro SIRET 945 000 644 00019.<br />
+                    Le présent site est édité par la société Ô ECLAT, immatriculée au Registre du Commerce et des Sociétés sous le numéro SIRET 945 000 644 00019.<br />
                     Siège social : Fontaine Française, France.<br />
                     Zones d'intervention : Dijon, Fontaine Française et Besançon.
                 </p>
@@ -15,7 +15,7 @@ export default function MentionsLegales() {
             <section className="mb-8">
                 <h2 className="text-xl font-semibold mb-4">2. Directeur de la publication</h2>
                 <p className="text-muted-foreground">
-                    Le Responsable de la publication est le Gérant de la société OECLAT.
+                    Le Responsable de la publication est le Gérant de la société Ô ECLAT.
                 </p>
             </section>
 

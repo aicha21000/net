@@ -34,7 +34,7 @@ export async function POST(request: Request) {
         const mailOptions: any = {
             from: process.env.EMAIL_USER,
             to: 'oeclat21@gmail.com',
-            subject: `Contact OECLAT : ${name}`,
+            subject: `Contact Ô ECLAT : ${name}`,
             text: `Nom: ${name}\nEmail: ${email}\nTéléphone: ${phone}\n\nMessage:\n${message}`,
             html: `
                 <div style="font-family: Arial, sans-serif; padding: 20px; color: #333;">

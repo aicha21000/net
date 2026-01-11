@@ -6,7 +6,7 @@ export default function CGV() {
             <section className="mb-8">
                 <h2 className="text-xl font-semibold mb-4">1. Objet</h2>
                 <p className="text-muted-foreground">
-                    Les présentes CGV régissent les prestations de nettoyage proposées par OECLAT à ses clients professionnels et particuliers.
+                    Les présentes CGV régissent les prestations de nettoyage proposées par Ô ECLAT à ses clients professionnels et particuliers.
                 </p>
             </section>
 
@@ -27,7 +27,7 @@ export default function CGV() {
             <section className="mb-8">
                 <h2 className="text-xl font-semibold mb-4">4. Responsabilité</h2>
                 <p className="text-muted-foreground">
-                    OECLAT s'engage à exécuter les prestations avec professionnalisme. En cas de dommage, nous disposons d'une assurance RC professionnelle couvrant nos activités.
+                    Ô ECLAT s'engage à exécuter les prestations avec professionnalisme. En cas de dommage, nous disposons d'une assurance RC professionnelle couvrant nos activités.
                 </p>
             </section>
         </div>

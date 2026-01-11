@@ -108,7 +108,7 @@ const Footer = () => {
                 </div>
 
                 <div className="border-t border-gray-200 dark:border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-muted-foreground text-sm">
-                    <p>&copy; {new Date().getFullYear()} OECLAT. SIRET : 945 000 644 00019. Tous droits réservés.</p>
+                    <p>&copy; {new Date().getFullYear()} Ô ECLAT. SIRET : 945 000 644 00019. Tous droits réservés.</p>
                     <div className="flex space-x-6 mt-4 md:mt-0">
                         <Link href="/mentions-legales" className="hover:text-primary transition-colors">Mentions Légales</Link>
                         <Link href="/politique-de-confidentialite" className="hover:text-primary transition-colors">Confidentialité</Link>

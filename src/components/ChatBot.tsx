@@ -75,7 +75,7 @@ const ChatBot = () => {
             {isOpen && (
                 <div className="bg-white rounded-lg shadow-xl w-80 sm:w-96 flex flex-col h-[500px] border border-gray-200 dark:bg-gray-800 dark:border-gray-700">
                     <div className="bg-primary text-white p-4 rounded-t-lg flex justify-between items-center dark:bg-blue-600">
-                        <h3 className="font-semibold">Assistant OECLAT</h3>
+                        <h3 className="font-semibold">Assistant Ô ECLAT</h3>
                         <button onClick={() => setIsOpen(false)} className="hover:text-gray-200">
                             <X size={20} />
                         </button>

@@ -21,7 +21,7 @@ const Navbar = () => {
                         <Link href="/" className="flex items-center space-x-2">
                             <Image
                                 src="/images/logo eclat.svg"
-                                alt="OECLAT Logo"
+                                alt="Ô ECLAT Logo"
                                 width={48}
                                 height={48}
                                 className="h-12 w-auto object-contain"

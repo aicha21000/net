@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "OECLAT | Société de Nettoyage à Dijon, Besançon et Fontaine Française",
-  description: "OECLAT est votre société de nettoyage de confiance à Dijon, Besançon et Fontaine Française. Services de nettoyage de vitres, sols, bardages, panneaux solaires et débarras. Devis gratuit.",
-  keywords: ["nettoyage", "société de nettoyage", "Dijon", "Besançon", "Fontaine Française", "vitres", "sols", "bardages", "panneaux solaires", "débarras", "OECLAT"],
+  title: "Ô ECLAT | Société de Nettoyage à Dijon, Besançon et Fontaine Française",
+  description: "Ô ECLAT est votre société de nettoyage de confiance à Dijon, Besançon et Fontaine Française. Services de nettoyage de vitres, sols, bardages, panneaux solaires et débarras. Devis gratuit.",
+  keywords: ["nettoyage", "société de nettoyage", "Dijon", "Besançon", "Fontaine Française", "vitres", "sols", "bardages", "panneaux solaires", "débarras", "Ô ECLAT"],
   icons: {
     icon: "/images/eclat.ico",
     shortcut: "/images/eclat.ico",
