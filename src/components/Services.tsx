@@ -28,7 +28,7 @@ const Services = () => {
                         initial={{ opacity: 0, y: 10 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="text-base text-primary font-bold tracking-wide uppercase dark:text-primary-dark"
+                        className="text-4xl text-primary font-bold tracking-wide uppercase dark:text-primary-dark"
                     >
                         Nos Services
                     </motion.h2>

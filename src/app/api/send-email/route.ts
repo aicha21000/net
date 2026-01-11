@@ -7,7 +7,7 @@ export async function POST(request: Request) {
         const body = await request.json();
         const { name, email, phone, message, fileUrl } = body;
 
-        console.log(`[Email] Tentative d'envoi de ${name} vers rachi69003@gmail.com`);
+        console.log(`[Email] Tentative d'envoi de ${name} vers oeclat21@gmail.com`);
 
         const transporter = nodemailer.createTransport({
             service: 'gmail',
@@ -33,7 +33,7 @@ export async function POST(request: Request) {
 
         const mailOptions: any = {
             from: process.env.EMAIL_USER,
-            to: 'rachi69003@gmail.com',
+            to: 'oeclat21@gmail.com',
             subject: `Contact OECLAT : ${name}`,
             text: `Nom: ${name}\nEmail: ${email}\nTéléphone: ${phone}\n\nMessage:\n${message}`,
             html: `
@@ -55,7 +55,7 @@ export async function POST(request: Request) {
         }
 
         await transporter.sendMail(mailOptions);
-        console.log('[Email] Succès : Message envoyé à rachi69003@gmail.com');
+        console.log('[Email] Succès : Message envoyé à oeclat21@gmail.com');
 
         return NextResponse.json({ message: 'Email envoyé avec succès' }, { status: 200 });
     } catch (error: any) {
