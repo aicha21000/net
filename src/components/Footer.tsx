@@ -14,7 +14,7 @@ const Footer = () => {
                             Société de nettoyage professionnel. Votre partenaire de confiance pour un résultat impeccable.
                         </p>
                         <div className="flex space-x-4">
-                            <a href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Suivez-nous sur Facebook">
+                            <a href="https://www.facebook.com/profile.php?id=61574151598427" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Suivez-nous sur Facebook">
                                 <Facebook size={20} aria-hidden="true" />
                             </a>
                             <a href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Suivez-nous sur Instagram">
