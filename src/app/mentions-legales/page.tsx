@@ -29,7 +29,7 @@ export default function MentionsLegales() {
             <section className="mb-8">
                 <h2 className="text-xl font-semibold mb-4">4. Propriété intellectuelle</h2>
                 <p className="text-muted-foreground">
-                    L'ensemble des éléments constituant le site (textes, graphismes, logiciels, photographies, images, logos, etc.) sont la propriété exclusive de OCLAT ou ont fait l'objet d'une autorisation préalable d'utilisation. Toute reproduction totale ou partielle est strictement interdite sans notre accord préalable écrit.
+                    L'ensemble des éléments constituant le site (textes, graphismes, logiciels, photographies, images, logos, etc.) sont la propriété exclusive de Ô ECLAT ou ont fait l'objet d'une autorisation préalable d'utilisation. Toute reproduction totale ou partielle est strictement interdite sans notre accord préalable écrit.
                 </p>
             </section>
         </div>
