@@ -14,8 +14,8 @@
   /* Red used sparingly */
 
   /* Modern Monochromatic Gradients */
-  --gradient-primary: linear-gradient(165deg, #52b050 0%, #3e8e3c 100%);
-  --gradient-hover: linear-gradient(165deg, #3e8e3c 0%, #2d6a2c 100%);
+  --gradient-primary: linear-gradient(165deg, #5FD3CF 0%, #0ABAB5 100%);
+  --gradient-hover: linear-gradient(165deg, #0ABAB5 0%, #088F8B 100%);
   --font-sans: var(--font-geist-sans);
 
   /* Glass Variables */
