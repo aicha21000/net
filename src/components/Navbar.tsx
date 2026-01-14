@@ -40,6 +40,9 @@ const Navbar = () => {
                         <Link href="/#services" className="text-gray-700 hover:text-primary transition-colors dark:text-white dark:hover:text-primary-dark font-medium">
                             Services
                         </Link>
+                        <Link href="/galerie" className="text-gray-700 hover:text-primary transition-colors dark:text-white dark:hover:text-primary-dark font-medium">
+                            Galerie
+                        </Link>
                         <Link href="/contact" className="text-gray-700 hover:text-primary transition-colors dark:text-white dark:hover:text-primary-dark font-medium">
                             Contact
                         </Link>
@@ -81,6 +84,13 @@ const Navbar = () => {
                             className="block px-3 py-2 text-gray-700 hover:text-primary transition-colors dark:text-gray-300 dark:hover:text-primary-dark"
                         >
                             Services
+                        </Link>
+                        <Link
+                            href="/galerie"
+                            onClick={() => setIsOpen(false)}
+                            className="block px-3 py-2 text-gray-700 hover:text-primary transition-colors dark:text-gray-300 dark:hover:text-primary-dark"
+                        >
+                            Galerie
                         </Link>
                         <Link
                             href="/contact"

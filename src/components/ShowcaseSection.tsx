@@ -22,7 +22,7 @@ const ShowcaseSection = () => {
 
                     <div className="relative w-full max-w-5xl mx-auto h-[300px] md:h-[500px] rounded-2xl overflow-hidden shadow-2xl border border-muted group">
                         <Image
-                            src="/images/sols.png"
+                            src="/images/sols1.png"
                             alt="Showcase de nos services de nettoyage"
                             fill
                             className="object-contain bg-muted/20"

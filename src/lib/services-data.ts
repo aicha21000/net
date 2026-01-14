@@ -1,4 +1,4 @@
-import { Maximize, Layers, Trash2, Sun, Home } from 'lucide-react';
+import { Maximize, Layers, Trash2, Sun, Home, Hammer } from 'lucide-react';
 
 export const servicesData = [
     {
@@ -29,7 +29,7 @@ export const servicesData = [
             'Lavage mécanisé (autolaveuse)'
         ],
         icon: Layers,
-        image: '/images/sols_net.png'
+        image: '/images/sols_net1.png'
     },
     {
         slug: 'bardages',
@@ -75,5 +75,20 @@ export const servicesData = [
         ],
         icon: Trash2,
         image: '/images/debarras.jpg'
+    },
+    {
+        slug: 'renovation-sinistre',
+        title: 'Rénovation des logements après sinistre',
+        shortDescription: 'Remise en état complète de logements après dégâts des eaux, incendies ou sinistres divers.',
+        fullDescription: 'Suite à un sinistre (dégâts des eaux, incendie, insalubrité ou logement dégradé), nous intervenons rapidement pour remettre votre logement en état. Notre approche globale permet une rénovation efficace, sécurisée et conforme aux normes en vigueur.',
+        features: [
+            'Déblaiement et évacuation des déchets',
+            'Nettoyage approfondi après sinistre',
+            'Traitement contre l\'humidité et les moisissures',
+            'Réfection des murs, sols et plafonds',
+            'Remise en état avant réoccupation ou relocation'
+        ],
+        icon: Hammer,
+        image: '/images/renovation-sinistre.jpg'
     },
 ];
