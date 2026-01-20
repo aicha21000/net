@@ -5,19 +5,16 @@ import Image from 'next/image';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const galleryImages = [
-    '/images/Gmail/01e19442-9253-48be-809f-3a74eca8848e.jpeg',
-    '/images/Gmail/0419f087-9691-4a78-a159-1afb7f7cdc71.jpeg',
+
     '/images/Gmail/4d9a8fa4-b91b-47cd-8129-5f59a76e52c2.jpeg',
-    '/images/Gmail/5b1537fe-9bba-4a04-864e-4657ba73fde4.jpeg',
+    '/images/Gmail/5b1537fe-9bba-4a04-864e-4657ba73fde.jpeg',
     '/images/Gmail/a13a04da-701c-4cee-ac0d-6549f3dfc41f.jpeg',
-    '/images/Gmail/a1c1abe1-6c04-491d-8814-2967f51af0cd.jpeg',
     '/images/Gmail/aeaa091c-68a7-4d37-8c68-0bb7112f787e.jpeg',
     '/images/Gmail/b6702f6a-8e24-417e-8022-d30837b1b8d4.jpeg',
-    '/images/Gmail/bac6d60f-82c4-44dc-9c0e-aa2b8550a448.jpeg',
     '/images/Gmail/bacd9813-0654-41d6-b37c-ee441057590b.jpeg',
     '/images/Gmail/c240bbbd-b3ff-4e85-9493-a1f0ab7bc53d.jpeg',
     '/images/Gmail/d0461b9f-1b26-44df-84b8-a554e0c499db.jpeg',
-    '/images/Gmail/new.png',
+
 ];
 
 const GallerySlider = () => {
@@ -68,12 +65,13 @@ const GallerySlider = () => {
                 {/* Slider Container */}
                 <div className="relative max-w-5xl mx-auto">
                     {/* Main Image Display */}
-                    <div className="relative aspect-[16/10] rounded-2xl overflow-hidden shadow-2xl bg-muted">
+                    <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl bg-black/90">
                         <Image
                             src={galleryImages[currentIndex]}
                             alt={`Réalisation Ô ECLAT ${currentIndex + 1}`}
                             fill
-                            className="object-cover"
+                            className="object-contain"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
                             priority={currentIndex === 0}
                         />
 

@@ -66,7 +66,7 @@ const Hero = () => {
                         <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md overflow-hidden">
                             <img
                                 className="w-full h-full object-cover"
-                                src="/images/Gmail/01e19442-9253-48be-809f-3a74eca8848e.jpeg"
+                                src="/images/team.png"
                                 alt="Nettoyage professionnel"
                             />
                         </div>
